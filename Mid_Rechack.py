@@ -11,7 +11,6 @@ class Hall:
         self.rows= rows
         self.colm =colm
         self._hall_no=hall_no
-
     def hall_no(self):
         return self._hall_no
     def entry_show(self, show_id, movie_name, time):
